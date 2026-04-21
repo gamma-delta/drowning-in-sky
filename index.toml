@@ -5,12 +5,64 @@ file = "config/paxi/datapack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/crimson_door.json"
+hash = "c7c7f33e81d31a3ed470246be9f00166583151740df6026005a13606c17a70ac"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/crimson_stems.json"
+hash = "19fca55922471deedb65536279c897b2bc36acc1355c1aef7b284c875c4de448"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/crimson_trapdoor.json"
+hash = "e0c6f2fa73c866c1a459482ab298e0a4d3451e5239bc312077eaf9911c0bb581"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/featherlight.json"
+hash = "61d7f98917691cea863cee13e6db0763a584608ea0147d3c75d7a823b8b4cd09"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/mace_core.json"
+hash = "71f07c4bff8f1b64c3377d9059c48404a89bf64447c842540c2b5369cc16445a"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/super_duper_heavy.json"
+hash = "ac5ff44f4d65a3847637c1f7e25465357dd947ce62d0f73f90da8d725ee0788f"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/warped_door.json"
+hash = "7bdc23ec82f1da9b433f3eb0d9d3dce7932b833d5fce8be5150b0aa612c9ea8c"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/warped_stems.json"
+hash = "2988455e5b16d309a23c6870109cd2fd3487c1656c081d6966961cb01f3a5b49"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/warped_trapdoor.json"
+hash = "32411acc37250a71bc29795791eaa8178c0bec9f1cd4879049438a0df25c81b9"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/tags/block/featherlight.json"
+hash = "85d8a5c3146fbfc38211ef9016fe78071626fc87421f3ec5d6ed896f4b14bfdc"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/tags/block/super_duper_heavy.json"
+hash = "a7e31c10cc8e937bff600b3481b5302b76006488fe85d9198c6a8eb7261f6166"
+
+[[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/dimension_type/overworld.json"
 hash = "a1d7452c4b29459a11093954c11ef7c6dab90eda3368fc7f3624e18fad0b957a"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/worldgen/noise_settings/overworld.json"
 hash = "1487fca45fb2c6fdbf4ea3e73f23da1a7a4ae107169f1c1342fe69a109b96371"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/sable/tags/block/light.json"
+hash = "c134f807c7fe507834a436ce06c4adde9575c2843d98331e52fda21470811ef9"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/sable/tags/block/super_light.json"
+hash = "bc63e3c72eb7d410bf538b040a02d8ddc1f4a368765f617075ade591719c78e6"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/pack.mcmeta"
@@ -69,6 +121,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
+metafile = true
+
+[[files]]
+file = "mods/lmft.pw.toml"
+hash = "faed2d9ae09b810b385180a3c20e598ff4d43da75f324b0320649ea4eeb78e29"
 metafile = true
 
 [[files]]

@@ -1,0 +1,16 @@
+{
+  "selector": "minecraft:crimson_door",
+  "properties": {},
+  "overrides": {
+    "facing=west,open=false": {"sable:inertia": [0.66, 100, 100]},
+    "facing=east,open=false": {"sable:inertia": [0.66, 100, 100]},
+    "facing=north,open=true": {"sable:inertia": [0.66, 100, 100]},
+    "facing=south,open=true": {"sable:inertia": [0.66, 100, 100]},
+
+    "facing=north,open=false": {"sable:inertia": [100, 100, 0.66]},
+    "facing=south,open=false": {"sable:inertia": [100, 100, 0.66]},
+    "facing=west,open=true": {"sable:inertia": [100, 100, 0.66]},
+    "facing=east,open=true": {"sable:inertia": [100, 100, 0.66]}
+  }
+}
+

@@ -1,0 +1,12 @@
+{
+  "selector": "minecraft:warped_trapdoor",
+  "properties": {},
+  "overrides": {
+    "open=false": {"sable:inertia": [0.66, 100, 0.66]},
+
+    "open=true,facing=west": {"sable:inertia": [100, 0.66, 0.66]},
+    "open=true,facing=east": {"sable:inertia": [100, 0.66, 0.66]},
+    "open=true,facing=north": {"sable:inertia": [0.66, 0.66, 100]},
+    "open=true,facing=south": {"sable:inertia": [0.66, 0.66, 100]}
+  }
+}

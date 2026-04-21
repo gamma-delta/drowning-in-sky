@@ -1,0 +1,16 @@
+{
+  "//": "the flat side is like the stem's axis",
+  "selector": "minecraft:warped_door",
+  "properties": {},
+  "overrides": {
+    "facing=west,open=false": {"sable:inertia": [100, 0.66, 0.66]},
+    "facing=east,open=false": {"sable:inertia": [100, 0.66, 0.66]},
+    "facing=north,open=true": {"sable:inertia": [100, 0.66, 0.66]},
+    "facing=south,open=true": {"sable:inertia": [100, 0.66, 0.66]},
+
+    "facing=north,open=false": {"sable:inertia": [0.66, 0.66, 100]},
+    "facing=south,open=false": {"sable:inertia": [0.66, 0.66, 100]},
+    "facing=west,open=true": {"sable:inertia": [0.66, 0.66, 100]},
+    "facing=east,open=true": {"sable:inertia": [0.66, 0.66, 100]}
+  }
+}

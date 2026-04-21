@@ -1,0 +1,6 @@
+{
+  "selector": "minecraft:heavy_core",
+  "properties": {
+    "sable:inertia": [1, 1, 1]
+  }
+}

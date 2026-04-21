@@ -1,0 +1,7 @@
+{
+  "selector": "#drowning-in-sky:featherlight",
+  "priority": 1100,
+  "properties": {
+    "sable:mass": 0.001
+  }
+}

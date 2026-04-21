@@ -1,0 +1,9 @@
+{
+  "selector": "#minecraft:warped_stems",
+  "properties": {},
+  "overrides": {
+    "axis=x": {"sable:inertia": [100, 0.66, 0.66]},
+    "axis=y": {"sable:inertia": [0.66, 100, 0.66]},
+    "axis=z": {"sable:inertia": [0.66, 0.66, 100]}
+  }
+}
