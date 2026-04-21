@@ -1,0 +1,13 @@
+name = "Drowning in Sky"
+author = "petrak@"
+version = "0.1.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "5b392beeb950a76336892da55b861799b96a62da56e7d7ded8ca4ce3ae5f09de"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.227"

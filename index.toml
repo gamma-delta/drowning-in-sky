@@ -1,0 +1,101 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/paxi/datapack_load_order.json"
+hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/dimension_type/overworld.json"
+hash = "a1d7452c4b29459a11093954c11ef7c6dab90eda3368fc7f3624e18fad0b957a"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/worldgen/noise_settings/overworld.json"
+hash = "1487fca45fb2c6fdbf4ea3e73f23da1a7a4ae107169f1c1342fe69a109b96371"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/pack.mcmeta"
+hash = "180f8d33b55ae5420b4b9d2e7714a2861fb1d421305d4052218774a6b51bb2dc"
+
+[[files]]
+file = "config/paxi/resourcepack_load_order.json"
+hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
+
+[[files]]
+file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/post/cloud_sea.json"
+hash = "179fe7eeeb9f50d3d21673385ff9bd55bf287fcc67afa72821db3558bdc5ea7c"
+
+[[files]]
+file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/shaders/program/cloud_sea.fsh"
+hash = "ef556138f46dd3ca55200ec330b2282c2b2feddb442100dd3de2093486d02e7f"
+
+[[files]]
+file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/shaders/program/cloud_sea.json"
+hash = "e03044ab700fce8f2e28eb3b30ee013a6bd2d0b3cd499566dd0916cb114d3753"
+
+[[files]]
+file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/pack.mcmeta"
+hash = "ce486aa0cd8ac6ef07bff7ee9002d514cce27e6d9e0e7859decae83927613d35"
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics.pw.toml"
+hash = "21110f3cc2edf33c680d3c8a680813288bcbd41122f2385ac976619dc37d7979"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "9da22561c3a5e45beb91121518a49f2e8a62bedb332574ce43a9d9b287ebc705"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
+metafile = true
+
+[[files]]
+file = "mods/paxi.pw.toml"
+hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
+metafile = true
+
+[[files]]
+file = "mods/sable.pw.toml"
+hash = "a8ac5ced9cafa5cf53d9f4d0cb61df06729d1a7b66b88d6b5a2e609b1ca26fa0"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
+metafile = true
+
+[[files]]
+file = "mods/veil.pw.toml"
+hash = "c48a5094a94604312b7876341c2116af7da589cef9d0d84b43f91afcbcb1049b"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "d9c0c9209bac0b693af2a7c1e47ffb28d366bad19c91df31dc6d345fa75250a1"
+metafile = true
+
+[[files]]
+file = "unsup.ini"
+hash = "2d70a62875ebc84371aad6694fa73d45b4621943a51ad1a54aada72e6ad1ee94"
