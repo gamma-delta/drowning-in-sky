@@ -92,19 +92,23 @@ void main() {
     vec3 viewWorldspacePos = screenToWorldSpace(texCoord, texture(DiffuseDepthSampler, texCoord).r).xyz;
 
 	vec3 actualCamPos = VeilCamera.CameraPosition + VeilCamera.CameraBobOffset;
-    float dist;
+
 	vec3 fogHitPos = actualCamPos;
     bool didHitFog = false;
+    float dist;
+    float fogExtraThick = 1.0;
     if (actualCamPos.y < FOG_Y) {
         dist = length(viewPos);
 
         Intersection i;
-        i.t = length(viewPos);
+        i.t = length(dist);
         intersectPlane(viewDirFromUv(texCoord), PLANE, i);
 
         if (i.hit != 0) {
-            dist = i.t;
-			fogHitPos = i.hitPoint;
+            // juice up the fog when underwater
+            dist = i.t * 2.0;
+            // fogExtraThick = 10.0;
+			fogHitPos = actualCamPos + viewDirFromUv(texCoord) * 0.2;
             didHitFog = true;
         }
     } else {
@@ -121,9 +125,6 @@ void main() {
 		fogHitPos = i.hitPoint;
         didHitFog = true;
     }
-    // Pretend that the fog is bumpy
-    float fogBumpiness = fractalNoise(fogHitPos.xz);
-    fogHitPos.y += (fogBumpiness - 0.5) * 32.0;
 
     // Noise sample in 2d from the fog hit pos, 3d on the camera hit pos, and 1d on the distance
     vec2 fogHitDrift = fogHitPos.xz + vec2(sin(VeilRenderTime * 0.1234), sin(VeilRenderTime * 0.1345 + 1));
@@ -139,7 +140,7 @@ void main() {
     if (didHitFog && dist != 0) {
         distance += length(actualCamPos.xyz - viewWorldspacePos.xyz) / 8;
     }
-    float thickness = clamp(exp(THICKNESS * -distance * noiseAround1), 0.0, 1.0);
+    float thickness = clamp(exp(THICKNESS * -distance * noiseAround1 * fogExtraThick), 0.0, 1.0);
 
     float mcFogColorBrightness = (FogColor.r + FogColor.g + FogColor.b) / 3.0;
     float mcFogColorDodge = mix(0.0, 1.0, mcFogColorBrightness);

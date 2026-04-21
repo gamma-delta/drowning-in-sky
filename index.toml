@@ -26,7 +26,7 @@ hash = "179fe7eeeb9f50d3d21673385ff9bd55bf287fcc67afa72821db3558bdc5ea7c"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/shaders/program/cloud_sea.fsh"
-hash = "5f21f1e3a25dab788592af2376f6ce370329aee5862c6db9ea03b2f132aebbc6"
+hash = "8925cb8a1684015206acbeae6157e877ccc757da5a3e1ca2f49dcda830c202d6"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/shaders/program/cloud_sea.json"
