@@ -13,8 +13,8 @@ uniform sampler2D Noise;
 uniform float VeilRenderTime;
 
 uniform vec4 FogColor;
-//const vec4 FogColor = vec4(0.8, 0.8, 0.8, 1.0);
-
+const vec4 ShallowFogColor = vec4(0.8, 0.8, 0.82, 0.8);
+const vec4 DeepFogColor = vec4(0.6, 0.6, 0.65, 1.0);
 
 in vec2 texCoord;
 
@@ -89,10 +89,12 @@ float fractalNoise(vec2 v) {
 void main() {
     vec4 baseColor = texture(DiffuseSampler0, texCoord);
     vec3 viewPos = screenToLocalSpace(texCoord, texture(DiffuseDepthSampler, texCoord).r).xyz;
+    vec3 viewWorldspacePos = screenToWorldSpace(texCoord, texture(DiffuseDepthSampler, texCoord).r).xyz;
 
 	vec3 actualCamPos = VeilCamera.CameraPosition + VeilCamera.CameraBobOffset;
     float dist;
 	vec3 fogHitPos = actualCamPos;
+    bool didHitFog = false;
     if (actualCamPos.y < FOG_Y) {
         dist = length(viewPos);
 
@@ -103,6 +105,7 @@ void main() {
         if (i.hit != 0) {
             dist = i.t;
 			fogHitPos = i.hitPoint;
+            didHitFog = true;
         }
     } else {
         Intersection i;
@@ -116,18 +119,32 @@ void main() {
 
         dist = length(viewPos) - i.t;
 		fogHitPos = i.hitPoint;
+        didHitFog = true;
     }
+    // Pretend that the fog is bumpy
+    float fogBumpiness = fractalNoise(fogHitPos.xz);
+    fogHitPos.y += (fogBumpiness - 0.5) * 32.0;
 
-	// Create some noise by double-sampling the blue noise
-    vec2 noisePointDrift = fogHitPos.xz + vec2(sin(VeilRenderTime * 0.1234), sin(VeilRenderTime * 0.1345 + 1));
-	float noiseSample = fractalNoise(noisePointDrift/16);
-	float noiseA = fractalNoise(vec2(noiseSample + fogHitPos.x * 0.001, noiseSample + fogHitPos.z * 0.002));
-    float noiseB = fractalNoise(fogHitPos.zx);
-    float noiseC = fractalNoise(vec2(VeilRenderTime * 0.1, 1));
-    float allNoise = smoothstep(0.0, 1.0, (noiseA + noiseB + noiseC) / 3.0);
-	float noiseAround1 = (allNoise * 0.2 + 1.0);
+    // Noise sample in 2d from the fog hit pos, 3d on the camera hit pos, and 1d on the distance
+    vec2 fogHitDrift = fogHitPos.xz + vec2(sin(VeilRenderTime * 0.1234), sin(VeilRenderTime * 0.1345 + 1));
+    vec3 viewHitDrift = viewWorldspacePos + vec3(sin(VeilRenderTime * 0.2456 + 2), sin(VeilRenderTime * 0.2765 + 3), sin(VeilRenderTime * 0.2123 + 4));
+    float fogHitNoise = fractalNoise(fogHitDrift / 11);
+    float viewHitXZNoise = fractalNoise(viewHitDrift.xz / 15);
+    float viewHitYNoise = fractalNoise(vec2(viewHitDrift.y / 31, 1.234567));
+    float thicknessNoise = fractalNoise(vec2(7.89, dist / 7)) * 0.5;
+    float allNoise = smoothstep(0.0, 1.0, (fogHitNoise + viewHitXZNoise + viewHitYNoise + thicknessNoise) / (3+0.5));
+	float noiseAround1 = (allNoise * 0.8 + 1.0);
 	
-    float distance = dist;//(pos.y - FOG_Y) / FOG_HEIGHT;
+    float distance = dist;
+    if (didHitFog && dist != 0) {
+        distance += length(actualCamPos.xyz - viewWorldspacePos.xyz) / 8;
+    }
     float thickness = clamp(exp(THICKNESS * -distance * noiseAround1), 0.0, 1.0);
-    fragColor = mix(FogColor, baseColor, thickness);
+
+    float mcFogColorBrightness = (FogColor.r + FogColor.g + FogColor.b) / 3.0;
+    float mcFogColorDodge = mix(0.0, 1.0, mcFogColorBrightness);
+    vec4 shallowFogColorDodged = vec4(ShallowFogColor.rgb * mcFogColorDodge, ShallowFogColor.a);
+    vec4 deepFogColorNoisy = vec4(clamp(DeepFogColor.rgb - allNoise / 32, 0.0, 1.0), DeepFogColor.a);
+    vec4 theFogColor = mix(shallowFogColorDodged, deepFogColorNoisy, smoothstep(1.0, 32.0, distance));
+    fragColor = mix(theFogColor, baseColor, thickness);
 }
