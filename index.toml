@@ -66,7 +66,7 @@ hash = "ea1465eb7c793a9c8346aa92c8a4b9ff7883b39f5e7e6e2b73faf4957a133ecd"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/gnkinetics/recipe/crafting/large_magnet_gear.json"
-hash = "c499aecd321985fd8b6194b0543002b822527870afb68e6ddabf01b96cbdbce0"
+hash = "6ba33270741722b269b7db134c1802712bd9152b2aa33153bf61d8c5f77819ec"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/gnkinetics/recipe/crafting/magnet_gear.json"
