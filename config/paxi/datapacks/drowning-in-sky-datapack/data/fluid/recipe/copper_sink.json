@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "create:copper_casing" },
+    { "item": "minecraft:nautilus_shell" },
+    { "item": "minecraft:water_bucket" }
+  ],
+  "result": {
+    "id": "fluid:copper_sink"
+  }
+}
+

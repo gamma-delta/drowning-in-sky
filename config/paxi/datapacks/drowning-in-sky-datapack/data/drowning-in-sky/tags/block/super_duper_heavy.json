@@ -19,6 +19,10 @@
     "simulated:black_portable_engine",
 
     "minecraft:netherite_block",
-    "minecraft:gold_block"
+    "minecraft:gold_block",
+
+    "powergrid:transformer_core",
+    "powergrid:transformer_small",
+    "powergrid:transformer_medium"
   ]
 }

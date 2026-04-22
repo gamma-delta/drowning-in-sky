@@ -1,0 +1,22 @@
+{
+  "replace": true,
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "G": { "item": "minecraft:glowstone_dust" },
+    "g": { "tag": "c:glass" },
+    "C": { "tag": "c:copper_coils" },
+    "E": { "item": "create:electron_tube" },
+    "L": { "item": "simulated:laser_pointer }"
+  },
+  "pattern": [
+    "  G  ",
+    " ggg ",
+    "CCLCC",
+    "  E  "
+  ],
+  "result": {
+    "id": "powergrid:crt"
+  }
+}
+

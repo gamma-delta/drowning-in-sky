@@ -1,0 +1,19 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": { "item": "powergrid:copper_coil" },
+    "R": { "item": "minecraft:redstone" },
+    "T": { "item": "minecraft:redstone_torch" },
+    "B": { "tag": "c:plates/brass" },
+    "#": { "tag": "c:stones" }
+  },
+  "pattern": [
+    " C ",
+    "RBT",
+    "###"
+  ],
+  "result": {
+    "id": "simulated:redstone_inductor"
+  }
+}

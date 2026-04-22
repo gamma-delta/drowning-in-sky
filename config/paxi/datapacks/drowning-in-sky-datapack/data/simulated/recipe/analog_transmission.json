@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "create:brass_casing" },
+    { "item": "gnkinetics:brass_gear" },
+    { "item": "create:electron_tube" },
+    { "item": "create:precision_mechanism" }
+  ],
+  "result": { "id": "simulated:analog_transmission" }
+}

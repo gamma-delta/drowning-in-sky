@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:copper_block" },
+    { "item": "minecraft:redstone_block" },
+    { "item": "create:cogwheel" }
+  ],
+  "result": {
+    "id": "supplementaries:cog_block",
+    "count": 6
+  }
+}

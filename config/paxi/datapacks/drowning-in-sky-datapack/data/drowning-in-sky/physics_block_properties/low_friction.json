@@ -1,0 +1,6 @@
+{
+  "selector": "#drowning-in-sky:low_friction",
+  "properties": {
+    "sable:friction": 0.25
+  }
+}

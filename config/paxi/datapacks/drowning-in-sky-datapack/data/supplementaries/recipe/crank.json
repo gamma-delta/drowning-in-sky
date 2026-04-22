@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": { "id": "create:hand_crank" },
+    "S": { "tag": "c:stones" }
+  },
+  "pattern": {
+    " C ",
+    "SSS"
+  },
+  "result": "supplementaries:crank"
+}

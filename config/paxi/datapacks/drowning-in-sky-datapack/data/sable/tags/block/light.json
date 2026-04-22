@@ -1,6 +1,7 @@
 {
   "replace": false,
-  "values": [],
+  "values": [
+  ],
   "remove": [
     "create:shaft"
   ]

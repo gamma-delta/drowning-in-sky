@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "create:rope_pulley" },
+    { "item": "simulated:rope_connector" }
+  ],
+  "result": {
+    "id": "simulated:rope_winch"
+  }
+}
+
+

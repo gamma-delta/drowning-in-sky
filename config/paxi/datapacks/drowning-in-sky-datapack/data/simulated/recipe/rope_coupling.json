@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "supplementaries:rope" },
+    { "item": "minecraft:iron_nugget" },
+    { "item": "minecraft:iron_nugget" }
+  ],
+  "result": {
+    "id": "simulated:rope_coupling"
+  }
+}

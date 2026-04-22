@@ -1,0 +1,18 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": { "item": "create:andesite_casing" },
+    "R": { "item": "supplementaries:rope" },
+    "S": { "tag": "c:plates/iron" }
+  },
+  "pattern": [
+    "A",
+    "R",
+    "S"
+  ],
+  "result": {
+    "id": "create:rope_pulley"
+  }
+}
+

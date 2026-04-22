@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": { "item": "minecraft:chiseled_stone_bricks" },
+    "M": { "item": "powergrid:magnet" }
+  },
+  "pattern": [
+    "SSS",
+    "SMS",
+    "SSS"
+  ],
+  "result": "minecraft:lodestone"
+}
+
+

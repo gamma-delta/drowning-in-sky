@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "A": {
+      "item": "powergrid:magnet"
+    },
+    "M": {
+      "tag": "c:copper_coils"
+    },
+    "S": {
+      "item": "gnkinetics:large_magnet_gear"
+    }
+  },
+  "pattern": [
+    "AMA",
+    "MSM",
+    "AMA"
+  ],
+  "result": {
+    "id": "powergrid:generator_induction_rotor"
+  }
+}
