@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": { "item": "create:andesite_casing" },
-    "R": { "item": "supplementaries:rope" },
+    "R": { "tag": "c:ropes" },
     "S": { "tag": "c:plates/iron" }
   },
   "pattern": [

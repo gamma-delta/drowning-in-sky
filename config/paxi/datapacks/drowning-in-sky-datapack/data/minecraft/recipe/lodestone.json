@@ -10,7 +10,5 @@
     "SMS",
     "SSS"
   ],
-  "result": "minecraft:lodestone"
+  "result": { "id": "minecraft:lodestone" }
 }
-
-

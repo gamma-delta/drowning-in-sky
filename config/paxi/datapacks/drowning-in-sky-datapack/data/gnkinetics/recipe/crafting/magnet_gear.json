@@ -6,7 +6,7 @@
       {"item": "gnkinetics:industrial_gear" },
       {"item": "gnkinetics:shaftless_industrial_gear" }
     ],
-    { "item": "powergrid:copper_coil" },
+    { "tag": "c:copper_coils" },
     { "item": "powergrid:magnet" }
   ],
   "result": { "id": "gnkinetics:magnet_gear" }

@@ -1,0 +1,14 @@
+{
+  "type": "powergrid:magnetization",
+  "ingredients": [
+    {
+      "item": "minecraft:slime_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:verdant_froglight",
+      "count": 1
+    }
+  ]
+}

@@ -5,8 +5,16 @@ file = "config/paxi/datapack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/aeronautics/recipe/mixing/levitite_blend.json"
+hash = "031eaea4e705cbe56420e6f35e183e36347222272d4b78284a88a2bf9f4f493a"
+
+[[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/create/recipe/rope_pulley.json"
-hash = "68b86c2bf5c2650b3eb32e194b1e04672cb50b4255eecda91e1e4df1bcccca4c"
+hash = "afdec11cb66d160b690ab67adca5181e472b5c258d3e5b01e9c1a9f602846019"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/blinklamp.json"
+hash = "0ac14d232417a456dfff983b3c04b523da12cf22d702e9ec01e54d10d307f0c6"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/crimson_door.json"
@@ -30,7 +38,7 @@ hash = "47d040d0a681dab4f97cfd7d729cb9fab4ef285d5502bc179df3e663750ee2b2"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/mace_core.json"
-hash = "71f07c4bff8f1b64c3377d9059c48404a89bf64447c842540c2b5369cc16445a"
+hash = "4a34139ef8ad7d30c742d67fc0ea8cfc13a72937fdadb3e2293ca1eaf402b167"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/super_duper_heavy.json"
@@ -49,8 +57,36 @@ file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/phys
 hash = "32411acc37250a71bc29795791eaa8178c0bec9f1cd4879049438a0df25c81b9"
 
 [[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/recipe/magnetize_magnias.json"
+hash = "22d88d1c516f1a77368e740b03d43381a52784324f94910032b0ad6f035ed4bc"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/recipe/magnetize_ochre_froglight.json"
+hash = "d33f0ae8912fe97c1baa03b21ef8ba71c7fd82fd8f3efbe8c30905b104d32cc5"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/recipe/magnetize_pearlescent_froglight.json"
+hash = "1eb23fb3026a479a91a47546d4cdf505caa317076171d6bd9344d452fadaeec8"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/recipe/magnetize_pitcher_pod.json"
+hash = "849998bf4ac8d51bad8b5baf2cc7c8e3bb0586e17b26ddf5d04ff7e10e0f0e48"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/recipe/magnetize_sniffer_egg.json"
+hash = "60050bde6e0f9a517c360d9fa0b1b25690cd91ea3698a1e00816954c3d65d494"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/recipe/magnetize_torchflower_seeds.json"
+hash = "1c82e1a51d12a8fb12e39cd7b2462265ef1cbba26013b520103158524f694ab8"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/recipe/magnetize_verdant_froglight.json"
+hash = "7f9416ba9a404e96d0f84e9cf905a44261fc11b96cb1ad09fa015f891ad3227a"
+
+[[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/tags/block/featherlight.json"
-hash = "85d8a5c3146fbfc38211ef9016fe78071626fc87421f3ec5d6ed896f4b14bfdc"
+hash = "e3d4e58959ed8e398382f4c2f4d5e5103cd83a75502b3d6652060517921f4636"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/tags/block/low_friction.json"
@@ -66,11 +102,11 @@ hash = "ea1465eb7c793a9c8346aa92c8a4b9ff7883b39f5e7e6e2b73faf4957a133ecd"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/gnkinetics/recipe/crafting/large_magnet_gear.json"
-hash = "6ba33270741722b269b7db134c1802712bd9152b2aa33153bf61d8c5f77819ec"
+hash = "4cbd770b8731b28fdf9474f359199581b02251d892e596fd1d4e3e5f1e282224"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/gnkinetics/recipe/crafting/magnet_gear.json"
-hash = "7e62cca8350ad483d3a7ef82580578b58dcf796f229db92ddcd768f860c2ec9f"
+hash = "6629e3325e15a4dc1082e7bc0945462ab4bbb84703714f1047f4f656aa2a722d"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/dimension_type/overworld.json"
@@ -78,27 +114,43 @@ hash = "a1d7452c4b29459a11093954c11ef7c6dab90eda3368fc7f3624e18fad0b957a"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/recipe/lodestone.json"
-hash = "a990d95ce848081f82514e5b7ae2f77ee33cafcc40ed124fd0eae23998622932"
+hash = "19de893b11634fbaf5cf89535fe30fb4b6d0e3cf874b897673a826211f5d5ed7"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/worldgen/noise_settings/overworld.json"
 hash = "1487fca45fb2c6fdbf4ea3e73f23da1a7a4ae107169f1c1342fe69a109b96371"
 
 [[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/powergrid/recipe/crafting/electromagnet.json"
+hash = "502bb274b2104f2b96d63a0816661e1cb42375932a0bb80b47a6426134b50407"
+
+[[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/powergrid/recipe/mechanical_crafting/crt.json"
-hash = "a22d731dcea1ac7cf39d17ccba53d4550b117a6ed2c179b0a812a20a755bda57"
+hash = "e1fd616a308b256fca3890b0fdcb0eb8840cc7b0cdacead1af28cd1b7ba05bcf"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/powergrid/recipe/mechanical_crafting/generator_induction_rotor.json"
 hash = "f701792abc0ffd8c25adc9ff4fbe54f5bafe8ada6b0b2b423cb24a9b2614ffee"
 
 [[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/powergrid/recipe/mixing/acid.json"
+hash = "d2c2772c698098b5856acff49119ba9dbc70963d9b4da39fc2bf3b63d1776e85"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/sable/tags/block/bouncy.json"
+hash = "ed84a15607d2a9bda0f9873eaf61bd27b8cf5136c143185a17dc7c0acffd53d3"
+
+[[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/sable/tags/block/light.json"
-hash = "a1b9a535277f574a205661e0eeca965b49a9911a68369156b736325403e9cd2b"
+hash = "9506fec47b4ea6eb4067ead0db362d8180ebcffbfdb43902ff1bae15314685ec"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/sable/tags/block/slippery.json"
-hash = "f154b97c34175fb0af645f264418aa2b745f1d68ce90abe2a62ad539a18cc3ea"
+hash = "1cef3341b1fcefa250a939bb0d1ae18b373158f5376e4dc60423729160796995"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/sable/tags/block/super_heavy.json"
+hash = "2a7e78497fe30d3263278afe216e66f6643ac83994c78ff7ccb87e34297234de"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/sable/tags/block/super_light.json"
@@ -118,7 +170,7 @@ hash = "7b50d60d2d1e1e2e5ed866369bda8daaf4ccfe04a1a6bfa373f9718b7de2135a"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/simulated/recipe/rope_coupling.json"
-hash = "57e6cdc93ac89722081e88716f89a97eb488174a8049b0ee02609e71ddb04284"
+hash = "3930b4db05d17c57b1c7ea443fe7b2fcf37a929981592567568c508ed22ae1b6"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/simulated/recipe/rope_winch.json"
@@ -130,7 +182,7 @@ hash = "5a78af898c0565e8c1b682ff4174a283442871c2400605a15e58cccecc150ba4"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/supplementaries/recipe/crank.json"
-hash = "6c1a722cd687ebcd5c34e165d55cd770a279742da9aae6ef0bbf44b740ea8f12"
+hash = "8cbab9005778da28c5d0de0ecd98906b7490f5aa0fe92e7e27042023510d5bf4"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/pack.mcmeta"
@@ -141,20 +193,45 @@ file = "config/paxi/resourcepack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
+file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/lang/en_us.json"
+hash = "bc0719001a967ca203ba975229ea6cb2bca62b895ac6e87cc213c260511e4bca"
+
+[[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/post/cloud_sea.json"
 hash = "179fe7eeeb9f50d3d21673385ff9bd55bf287fcc67afa72821db3558bdc5ea7c"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/shaders/program/cloud_sea.fsh"
-hash = "8925cb8a1684015206acbeae6157e877ccc757da5a3e1ca2f49dcda830c202d6"
+hash = "e0413aa0e0f5f3198d887cff9bdcbe58a7bfc503aac4c6e6f1713e8787e1bfb0"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/shaders/program/cloud_sea.json"
-hash = "e03044ab700fce8f2e28eb3b30ee013a6bd2d0b3cd499566dd0916cb114d3753"
+hash = "41a502e614ac4eea5df7912ba1ba980a124370c94499c1ae8d737920818f306c"
+
+[[files]]
+file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/emi/recipe/additions/blinklamp_mass.json"
+hash = "9ef91a08746c1157433e5c8db4ceee5ce1902c1d66e138bfd11bd4f4e72eeaee"
+
+[[files]]
+file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/emi/recipe/additions/crimson_wont_tip.json"
+hash = "702d2feee8a62af96ea15e53841dbf93b862c83a7d4b3fbf7358c6df9e2f4191"
+
+[[files]]
+file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/emi/recipe/additions/mace_core_resists_spin.json"
+hash = "46b23abfb3ca7571e49f478ba44f5fa10d08d81cb35350f850a1b4c6f8a84144"
+
+[[files]]
+file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/emi/recipe/additions/warped_wont_spin.json"
+hash = "d9c9b12af69051b54547c39782af5dfada0352c5cd19153be318a8d31071e781"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/pack.mcmeta"
 hash = "ce486aa0cd8ac6ef07bff7ee9002d514cce27e6d9e0e7859decae83927613d35"
+
+[[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "e2fa0a0c652d1a4cdec2ecc122c968c2a4b1cb36c2cdd874e10d8b04edb737fa"
+metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
@@ -162,8 +239,23 @@ hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
+file = "mods/clickthrough+.pw.toml"
+hash = "ffb0861ae37abc292e61208c8b7826b7b8287b24c07419083d4bb4ac109da4ee"
+metafile = true
+
+[[files]]
+file = "mods/clientsort.pw.toml"
+hash = "89865794f0fbe908f5b5b1c2628df8f9c0aa715313d305f08f922cf7b5c9be9d"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "21110f3cc2edf33c680d3c8a680813288bcbd41122f2385ac976619dc37d7979"
+hash = "74f3358e1070f1163d14cb62ee768a389bd758f36b5c21471910e43fbcfacc9e"
 metafile = true
 
 [[files]]
@@ -172,13 +264,38 @@ hash = "756529d23946ab0e86af76745307528c6fe8a6cb81fb404dd0b84a6562ff6a1c"
 metafile = true
 
 [[files]]
+file = "mods/create-molten-vents.pw.toml"
+hash = "198dc94a41237e61ad862bb803a6b5892781209a0f9890881f3f98cd6fce2792"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
-hash = "9da22561c3a5e45beb91121518a49f2e8a62bedb332574ce43a9d9b287ebc705"
+hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+metafile = true
+
+[[files]]
+file = "mods/durability-guard.pw.toml"
+hash = "3243feda03740a7ad349699774ad163696d8452a78bdac5f99f0b6dcc7f604e1"
 metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
 hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
+metafile = true
+
+[[files]]
+file = "mods/enders-delight.pw.toml"
+hash = "d9974ce7736002c8a696af3c754fbc2702ba8751dcb2eed6d6ca8a824ec2f7eb"
+metafile = true
+
+[[files]]
+file = "mods/enderscape.pw.toml"
+hash = "dee101b4695257c023df362ae0e99f9ed7ca0f43bf943016f398e301b1678be4"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "69495e979400e63b317b80a71bdd9276929d503b12fa0e73bc668c474d5dbc4c"
 metafile = true
 
 [[files]]
@@ -189,6 +306,11 @@ metafile = true
 [[files]]
 file = "mods/gears-n-kinetics.pw.toml"
 hash = "ca9a6e860a062bf02cdc222775e8adaa2c0d9a38891464eeb55a12eecef69ce4"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "b6e0a61fea06f8d6d8e1672cf07b682625c4b74efd548d5093cd9c1fed167eec"
 metafile = true
 
 [[files]]
@@ -212,18 +334,37 @@ hash = "c05fa3fa9bc5700104d928b616b15e70d441085dd060c6501122747dc3805de1"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
+metafile = true
+
+[[files]]
+file = "mods/my-nethers-delight.pw.toml"
+hash = "2f6c9613ab64a27f2ba7ab55ed6d7557ffd06dff2d9db7a7e92b2d526e96a466"
+metafile = true
+
+[[files]]
+file = "mods/only-blahaj.pw.toml"
+hash = "b148bb706cd87c546fad080689e8bbd54deebf1c79b6090cfd3b7e89a7ae6978"
+metafile = true
+
+[[files]]
 file = "mods/paxi.pw.toml"
 hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
-file = "mods/power-grid.pw.toml"
-hash = "3d9e6280e38ac24dac1b5e3ad67f3f68baa67f53871261282ddbb7674611b2d0"
+file = "mods/powergrid-mc1.21.1-0.5.4-17ffc3ba.jar"
+hash = "3de279ebf8ba7d29406b61fd7c76bbae8f9a72b426c3eb29278431f21ef59d0c"
+
+[[files]]
+file = "mods/runiclib.pw.toml"
+hash = "6a652553ffaf58fd4c7010d27ce060df632b715597be3a44b32d470191b9b686"
 metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "a8ac5ced9cafa5cf53d9f4d0cb61df06729d1a7b66b88d6b5a2e609b1ca26fa0"
+hash = "735f0a8e564e8c80c282a7ba97fe77c34edec0402883f7154fd0206572537afe"
 metafile = true
 
 [[files]]
@@ -237,8 +378,23 @@ hash = "fa0e1562f9dc89d6428546c7388dcfce8706843333d58f16cadce42b56b81085"
 metafile = true
 
 [[files]]
+file = "mods/touys.pw.toml"
+hash = "1b1f89d29c2ecc02f3d132718d078e0add20c3ac7e5f3f8d362eb824023d8082"
+metafile = true
+
+[[files]]
+file = "mods/trimmed.pw.toml"
+hash = "28db7535fae8c33b5547fefefdd88ead89c7edd7c1f330a5f370dca76e6706c9"
+metafile = true
+
+[[files]]
 file = "mods/veil.pw.toml"
 hash = "c48a5094a94604312b7876341c2116af7da589cef9d0d84b43f91afcbcb1049b"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true
 
 [[files]]

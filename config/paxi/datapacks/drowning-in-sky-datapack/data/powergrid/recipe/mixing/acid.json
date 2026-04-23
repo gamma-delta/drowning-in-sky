@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    { "item": "supplementaries:ash" },
+    { "item": "minecraft:blaze_powder" },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "supplementaries:lumisene"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "powergrid:acid"
+    }
+  ]
+}

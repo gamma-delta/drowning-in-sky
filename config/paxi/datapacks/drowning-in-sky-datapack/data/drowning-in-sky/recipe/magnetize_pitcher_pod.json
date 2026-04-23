@@ -1,0 +1,10 @@
+{
+  "type": "powergrid:magnetization",
+  "ingredients": [{ "item": "minecraft:cocoa_beans" }],
+  "results": [
+    {
+      "id": "minecraft:pitcher_pod",
+      "count": 1
+    }
+  ]
+}

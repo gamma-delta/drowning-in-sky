@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    { "tag": "endersdelight:shulker_loot" },
+    { "item": "aeronautics:end_stone_powder" },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "supplementaries:lumisene"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "aeronautics:levitite_blend"
+    }
+  ]
+}

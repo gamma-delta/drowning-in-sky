@@ -1,0 +1,6 @@
+{
+  "drowning-in-sky.info.warped_wont_spin": "Warped logs resist spinning around their axis. Similarly, warped doors and trapdoors resist spinning around their flat side (ie, a trapdoor laying flat on the ground resists spinning, but not tipping).",
+  "drowning-in-sky.info.crimson_wont_tip": "Crimson logs resist tipping over. Similarly, crimson doors and trapdoors resist turning from the plane they sit in. They don't resist spinning around their axis.",
+  "drowning-in-sky.info.mace_core_resists_spin": "Heavy cores resist any form of spin.",
+  "drowning-in-sky.info.blinklamp_mass": "Analog redstone signals make blinklamps heavier. When unpowered, it weighs 0.25 kpg. Each level of signal strength doubles its mass, up to 8192 kpg.\n(The tooltip is wrong.)"
+}

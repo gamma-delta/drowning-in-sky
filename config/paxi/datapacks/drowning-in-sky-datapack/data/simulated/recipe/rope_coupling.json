@@ -2,7 +2,7 @@
   "replace": true,
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    { "item": "supplementaries:rope" },
+    { "tag": "c:ropes" },
     { "item": "minecraft:iron_nugget" },
     { "item": "minecraft:iron_nugget" }
   ],

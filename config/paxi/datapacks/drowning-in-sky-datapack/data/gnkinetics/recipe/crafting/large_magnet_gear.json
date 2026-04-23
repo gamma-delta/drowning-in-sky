@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     [
-      {"item": "gnkinetics:large_industrial_gear" },
-      {"item": "gnkinetics:large_shaftless_industrial_gear" }
+      { "item": "gnkinetics:large_industrial_gear" },
+      { "item": "gnkinetics:shaftless_large_industrial_gear" }
     ],
-    { "item": "powergrid:copper_coil" },
-    { "item": "powergrid:copper_coil" },
+    { "tag": "c:copper_coils" },
+    { "tag": "c:copper_coils" },
     { "item": "powergrid:magnet" }
   ],
   "result": { "id": "gnkinetics:large_magnet_gear" }

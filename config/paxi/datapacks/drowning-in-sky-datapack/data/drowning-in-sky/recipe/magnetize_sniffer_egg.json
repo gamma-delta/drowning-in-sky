@@ -1,0 +1,10 @@
+{
+  "type": "powergrid:magnetization",
+  "ingredients": [{ "item": "minecraft:turtle_egg" }],
+  "results": [
+    {
+      "id": "minecraft:sniffer_egg",
+      "count": 1
+    }
+  ]
+}

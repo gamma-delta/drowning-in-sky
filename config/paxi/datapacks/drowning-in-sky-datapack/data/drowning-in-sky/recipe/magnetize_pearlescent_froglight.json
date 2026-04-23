@@ -1,0 +1,14 @@
+{
+  "type": "powergrid:magnetization",
+  "ingredients": [
+    {
+      "item": "enderscape:drift_jelly_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:pearlescent_froglight",
+      "count": 1
+    }
+  ]
+}

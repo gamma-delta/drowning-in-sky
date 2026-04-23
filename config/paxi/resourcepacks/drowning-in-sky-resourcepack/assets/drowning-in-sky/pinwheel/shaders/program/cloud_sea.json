@@ -1,7 +1,4 @@
 {
   "vertex": "veil:blit_screen",
-  "fragment": "drowning-in-sky:cloud_sea",
-  "textures": {
-    "Noise": "veil:textures/shader/blue_noise.png"
-  }
+  "fragment": "drowning-in-sky:cloud_sea"
 }

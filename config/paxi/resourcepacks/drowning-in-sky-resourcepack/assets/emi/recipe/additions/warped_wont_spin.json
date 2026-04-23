@@ -1,0 +1,10 @@
+{
+  "type": "emi:info",
+  "stacks": [
+    "item:minecraft:warped_stem",
+    "item:minecraft:warped_hyphae",
+    "item:minecraft:stripped_warped_stem",
+    "item:minecraft:stripped_warped_hyphae"
+  ],
+  "text": "drowning-in-sky.info.warped_wont_spin"
+}

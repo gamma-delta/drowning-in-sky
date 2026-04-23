@@ -1,15 +1,6 @@
 {
   "replace": false,
   "values": [
-    "create:shaft",
-
-    "powergrid:potato_battery",
-    "powergrid:cord_junction",
-    "powergrid:lv_switch",
-    "powergrid:lv_button",
-    "powergrid:light_fixture",
-    "powergrid:device_connector",
-    "powergrid:socket",
-    "powergrid:thermometer"
+    "create:shaft"
   ]
 }

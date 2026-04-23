@@ -1,0 +1,7 @@
+{
+  "type": "emi:info",
+  "stacks": [
+    "item:minecraft:heavy_core"
+  ],
+  "text": "drowning-in-sky.info.mace_core_resists_spin"
+}

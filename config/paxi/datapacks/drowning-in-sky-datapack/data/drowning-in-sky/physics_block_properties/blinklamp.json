@@ -1,0 +1,23 @@
+{
+  "selector": "enderscape:blinklamp",
+  "properties": {},
+  "overrides": {
+    "luminance=15": {"sable:mass": 0.25},
+    "luminance=14": {"sable:mass": 0.5},
+    "luminance=13": {"sable:mass": 1},
+    "luminance=12": {"sable:mass": 2},
+    "luminance=11": {"sable:mass": 4},
+    "luminance=10": {"sable:mass": 8},
+    "luminance=9": {"sable:mass": 16},
+    "luminance=8": {"sable:mass": 32},
+    "luminance=7": {"sable:mass": 64},
+    "luminance=6": {"sable:mass": 128},
+    "luminance=5": {"sable:mass": 256},
+    "luminance=4": {"sable:mass": 512},
+    "luminance=3": {"sable:mass": 1024},
+    "luminance=2": {"sable:mass": 2048},
+    "luminance=1": {"sable:mass": 4096},
+    "luminance=0": {"sable:mass": 8192}
+  }
+}
+

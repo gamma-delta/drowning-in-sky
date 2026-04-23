@@ -1,0 +1,10 @@
+{
+  "type": "powergrid:magnetization",
+  "ingredients": [{ "item": "minecraft:beetroot_seeds" }],
+  "results": [
+    {
+      "id": "minecraft:torchflower_seeds",
+      "count": 1
+    }
+  ]
+}

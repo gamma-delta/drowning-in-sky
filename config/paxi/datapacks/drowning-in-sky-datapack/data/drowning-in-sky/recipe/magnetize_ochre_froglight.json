@@ -1,0 +1,14 @@
+{
+  "type": "powergrid:magnetization",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ochre_froglight",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name = "Sable Touys"
+filename = "touys-neoforge-1.21.1-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HHlTF7u0/versions/pY3rOWmS/touys-neoforge-1.21.1-1.0.4.jar"
+hash-format = "sha512"
+hash = "6e6b257a6e78775d280e8e50386e8201f6cfac9893508f1a4cc4f51a2f133a4761c46f89a69ed88adf69f39c18bab7dda34dbf5da66e8b1dc6735a93994c17b6"
+
+[update]
+[update.modrinth]
+mod-id = "HHlTF7u0"
+version = "pY3rOWmS"

@@ -1,0 +1,10 @@
+{
+  "type": "emi:info",
+  "stacks": [
+    "item:minecraft:crimson_stem",
+    "item:minecraft:crimson_hyphae",
+    "item:minecraft:stripped_crimson_stem",
+    "item:minecraft:stripped_crimson_hyphae"
+  ],
+  "text": "drowning-in-sky.info.crimson_wont_tip"
+}

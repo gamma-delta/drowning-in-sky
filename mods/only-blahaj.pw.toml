@@ -1,0 +1,13 @@
+name = "Only Blahaj"
+filename = "only_blahaj-2.1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IHk5tz4u/versions/bB5xlVkd/only_blahaj-2.1.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "51814bc17df02b7af3beb93c80340e0440ef492d54f3267baae7df09d31be1cfd94818e745c3b46bfb95a1a65b039a5c9a78df34c26f496c8aef997c8274ed79"
+
+[update]
+[update.modrinth]
+mod-id = "IHk5tz4u"
+version = "bB5xlVkd"
