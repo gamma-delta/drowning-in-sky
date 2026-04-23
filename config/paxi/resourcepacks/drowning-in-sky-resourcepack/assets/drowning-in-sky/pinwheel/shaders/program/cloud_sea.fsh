@@ -4,7 +4,7 @@
 #include veil:fog
 #include veil:space_helper
 
-#define FOG_Y 64.99
+#define FOG_Y 64.95
 #define THICKNESS 0.3
 
 uniform sampler2D DiffuseSampler0;
