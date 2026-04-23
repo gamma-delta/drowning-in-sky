@@ -1,0 +1,13 @@
+name = "DimWorldBorder"
+filename = "dimworldborder-neoforge-1.21.1-1.0.5.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/KNfZi3IU/versions/nIZmEs5B/dimworldborder-neoforge-1.21.1-1.0.5.jar"
+hash-format = "sha512"
+hash = "8e721608b128981a7e720e40ad482be8c960a9a329c7e6310bbf89d5bf916a218fea0da3c010324197b87e9fa0b7a4ef363c81af886516e005a640a6f4c5835b"
+
+[update]
+[update.modrinth]
+mod-id = "KNfZi3IU"
+version = "nIZmEs5B"

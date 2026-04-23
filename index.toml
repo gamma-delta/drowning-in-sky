@@ -117,6 +117,10 @@ file = "config/paxi/datapacks/drowning-in-sky-datapack/data/gnkinetics/recipe/cr
 hash = "6629e3325e15a4dc1082e7bc0945462ab4bbb84703714f1047f4f656aa2a722d"
 
 [[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/dimension_type/nether.json"
+hash = "7751031f616d71d4ae654946efc2ca3eafccb3ececbe35b528162807d1c52462"
+
+[[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/dimension_type/overworld.json"
 hash = "a1d7452c4b29459a11093954c11ef7c6dab90eda3368fc7f3624e18fad0b957a"
 
@@ -271,6 +275,11 @@ hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
 file = "mods/clickthrough+.pw.toml"
 hash = "ffb0861ae37abc292e61208c8b7826b7b8287b24c07419083d4bb4ac109da4ee"
 metafile = true
@@ -313,6 +322,11 @@ metafile = true
 [[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+metafile = true
+
+[[files]]
+file = "mods/dimworldborder.pw.toml"
+hash = "e14e545eff3fe3191e87804820e917c36d5fe5d6e7e3395e5f525c39ed87b802"
 metafile = true
 
 [[files]]
