@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE.txt"
+hash = "c7e993f419cf0178795151745219a9f941fa7bf1d0a6921456c76a6671baf268"
+
+[[files]]
 file = "config/create_dragons_plus-server.toml"
 hash = "9c6c6223330cd5dd885919eb8d87c4c710dd7d9fe3f1350a7358de3893dbe58d"
 
@@ -125,8 +129,32 @@ file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/worldgen/n
 hash = "1487fca45fb2c6fdbf4ea3e73f23da1a7a4ae107169f1c1342fe69a109b96371"
 
 [[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/molten_vents/worldgen/placed_feature/asurine_vent.json"
+hash = "f339bb06f723ad3d2e50e7f12c119f14877260ef12d96ea539ac0123c9c567dd"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/molten_vents/worldgen/placed_feature/crimsite_vent.json"
+hash = "f7c28bb01c75744bb811e46632935ac5bbfae288486f97274cca23270c984886"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/molten_vents/worldgen/placed_feature/ochrum_vent.json"
+hash = "19cf7cc348286134d98f29df80f88727d3a721b7275678c3421bc92af583abaf"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/molten_vents/worldgen/placed_feature/scorchia_vent.json"
+hash = "33a3ee7ce60be0999dca5f75a0766fb15a3341ca92b9e952d11e0687b544a1e3"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/molten_vents/worldgen/placed_feature/scoria_vent.json"
+hash = "4cb6d666051698a22cc4e7e29f72a7cf6215633a8aa743680f02cbec4afad93f"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/molten_vents/worldgen/placed_feature/veridium_vent.json"
+hash = "ccd4583b520f15f37728f78d504503595ea220e87b84071254483baa99ba1974"
+
+[[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/powergrid/recipe/crafting/electromagnet.json"
-hash = "502bb274b2104f2b96d63a0816661e1cb42375932a0bb80b47a6426134b50407"
+hash = "4ace4a4c6dde9a4eeb68d50f2fd6fbb49d99369f8c31e80c6c38710961f79eb9"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/powergrid/recipe/mechanical_crafting/crt.json"
@@ -186,7 +214,7 @@ hash = "5a78af898c0565e8c1b682ff4174a283442871c2400605a15e58cccecc150ba4"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/supplementaries/recipe/crank.json"
-hash = "8cbab9005778da28c5d0de0ecd98906b7490f5aa0fe92e7e27042023510d5bf4"
+hash = "eb60821a146fb5ca6f9ff32eece406cfb64a4cbd96dd07d899482f5a4993faff"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/pack.mcmeta"
@@ -418,4 +446,4 @@ metafile = true
 
 [[files]]
 file = "unsup.ini"
-hash = "2d70a62875ebc84371aad6694fa73d45b4621943a51ad1a54aada72e6ad1ee94"
+hash = "9528a647cf24b122149cd54127c28fd1d37a1c9ffd54d65b3d73477bda7608d7"
