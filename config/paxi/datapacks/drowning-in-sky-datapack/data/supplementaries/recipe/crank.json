@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "C": {
-      "id": "create:hand_crank"
+      "item": "create:hand_crank"
     },
     "S": {
       "tag": "c:stones"

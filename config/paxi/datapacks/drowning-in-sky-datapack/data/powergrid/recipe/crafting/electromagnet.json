@@ -20,5 +20,7 @@
     "cAc",
     "cRc"
   ],
-  "result": "minecraft:electromagnet"
+  "result": {
+    "id": "powergrid:electromagnet"
+  }
 }

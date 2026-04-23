@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/create_dragons_plus-server.toml"
+hash = "9c6c6223330cd5dd885919eb8d87c4c710dd7d9fe3f1350a7358de3893dbe58d"
+
+[[files]]
 file = "config/paxi/datapack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
@@ -142,7 +146,7 @@ hash = "ed84a15607d2a9bda0f9873eaf61bd27b8cf5136c143185a17dc7c0acffd53d3"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/sable/tags/block/light.json"
-hash = "9506fec47b4ea6eb4067ead0db362d8180ebcffbfdb43902ff1bae15314685ec"
+hash = "1692dc58c58bdca7bea6ba3b6d1fae277090638ee16b6d17136895c13efefcca"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/sable/tags/block/slippery.json"
@@ -154,7 +158,7 @@ hash = "2a7e78497fe30d3263278afe216e66f6643ac83994c78ff7ccb87e34297234de"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/sable/tags/block/super_light.json"
-hash = "494c72f784d9c6b1ef6b5fdea8f66630386b8e4c40ecae3a6d9948baf2340d63"
+hash = "2ea87105b81fd82fc50502be5fdc637ac6f1c249ab4096842e15c944d7c1479a"
 
 [[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/simulated/recipe/analog_transmission.json"
@@ -256,6 +260,16 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "74f3358e1070f1163d14cb62ee768a389bd758f36b5c21471910e43fbcfacc9e"
+metafile = true
+
+[[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "841520a74c765cb9aef0cc35ec3f9ea3bef68b47eca8ed2643abacee6961c2ff"
+metafile = true
+
+[[files]]
+file = "mods/create-dragons-plus.pw.toml"
+hash = "44df18a2448d91a2e781af5e4ad1a639e70b79b4041bf846b8776166f8d2a5b9"
 metafile = true
 
 [[files]]
