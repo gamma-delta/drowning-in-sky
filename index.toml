@@ -234,15 +234,15 @@ hash = "bc0719001a967ca203ba975229ea6cb2bca62b895ac6e87cc213c260511e4bca"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/post/cloud_sea.json"
-hash = "179fe7eeeb9f50d3d21673385ff9bd55bf287fcc67afa72821db3558bdc5ea7c"
+hash = "71390c6888a4f59a8d479e38527e5c66ea61ae03316f5a71aa2d91db572b81f7"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/shaders/program/cloud_sea.fsh"
-hash = "1b8d7c0bbdc713dfd2edee4e49a2bab6535a3ddd39047ef9fdafa7d31db95648"
+hash = "d0cbc285c23c2a89d8c16c0123f39bcb63df6119766a7272f87cc2d932f7fe8d"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/shaders/program/cloud_sea.json"
-hash = "41a502e614ac4eea5df7912ba1ba980a124370c94499c1ae8d737920818f306c"
+hash = "1ee78b1a837987b0525be8658056d701da0a943b24f3fa7448ba5de0cf06539c"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/emi/recipe/additions/blinklamp_mass.json"
@@ -263,6 +263,10 @@ hash = "d9c9b12af69051b54547c39782af5dfada0352c5cd19153be318a8d31071e781"
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/pack.mcmeta"
 hash = "ce486aa0cd8ac6ef07bff7ee9002d514cce27e6d9e0e7859decae83927613d35"
+
+[[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "eef2f0bdaf5eabdfa3da41a2e73520f096975b1e2cfed4da962b5b54398eed11"
 
 [[files]]
 file = "mods/amplified-nether.pw.toml"
@@ -377,6 +381,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "69495e979400e63b317b80a71bdd9276929d503b12fa0e73bc668c474d5dbc4c"
+metafile = true
+
+[[files]]
+file = "mods/faster-ladder-climbing.pw.toml"
+hash = "57f27b02d6f511a75d3025e1cecd348b1381e6fc136eb2bde4f75356228a99b9"
 metafile = true
 
 [[files]]

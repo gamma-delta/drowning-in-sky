@@ -1,4 +1,12 @@
 {
-  "vertex": "veil:blit_screen",
-  "fragment": "drowning-in-sky:cloud_sea"
+  "stages": [
+    {
+      "type": "veil:blit",
+      "shader": "drowning-in-sky:cloud_sea",
+      "in": "minecraft:main"
+    }
+  ],
+  "dynamicBuffers": [
+    "light_uv"
+  ]
 }
