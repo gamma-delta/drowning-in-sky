@@ -425,8 +425,8 @@ hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
-file = "mods/powergrid-mc1.21.1-0.5.4-17ffc3ba.jar"
-hash = "3de279ebf8ba7d29406b61fd7c76bbae8f9a72b426c3eb29278431f21ef59d0c"
+file = "mods/powergrid-mc1.21.1-0.5.4-05541066.jar"
+hash = "feb069c1b35135f72615cf5450fd95fcbeaac6d9723d9a2b19a9f2ef240cffc7"
 
 [[files]]
 file = "mods/runiclib.pw.toml"
