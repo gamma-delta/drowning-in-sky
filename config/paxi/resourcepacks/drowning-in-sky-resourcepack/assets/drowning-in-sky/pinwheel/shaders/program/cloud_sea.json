@@ -1,12 +1,7 @@
 {
-  "stages": [
-    {
-      "type": "veil:blit",
-      "shader": "drowning-in-sky:cloud_sea",
-      "in": "minecraft:main"
-    }
-  ],
-  "dynamicBuffers": [
-    "light_uv"
-  ]
+  "vertex": "veil:blit_screen",
+  "fragment": "drowning-in-sky:cloud_sea",
+  "textures": {
+    "LightmapUV": "veil:dynamic_buffer/light_uv"
+  }
 }

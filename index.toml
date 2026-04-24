@@ -242,11 +242,11 @@ hash = "d0cbc285c23c2a89d8c16c0123f39bcb63df6119766a7272f87cc2d932f7fe8d"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/shaders/program/cloud_sea.json"
-hash = "1ee78b1a837987b0525be8658056d701da0a943b24f3fa7448ba5de0cf06539c"
+hash = "8f4b826eb243bbbb99fd1b90b0b0843238fb42d3b238131b98145b4a5e003e4f"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/emi/recipe/additions/blinklamp_mass.json"
-hash = "9ef91a08746c1157433e5c8db4ceee5ce1902c1d66e138bfd11bd4f4e72eeaee"
+hash = "64f84305d2765d28d05c917408cf7049c3281f5dbc3018066edc2b24c4207b04"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/emi/recipe/additions/crimson_wont_tip.json"
@@ -394,11 +394,6 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "a830f9e0393be04dd0a8a3a845b27e90cd34961887403c800e296182283d9c3e"
-metafile = true
-
-[[files]]
 file = "mods/gears-n-kinetics.pw.toml"
 hash = "ca9a6e860a062bf02cdc222775e8adaa2c0d9a38891464eeb55a12eecef69ce4"
 metafile = true
@@ -493,18 +488,8 @@ hash = "c4f12c7bf746bdf25719995f9da8626187e9f879a20e29a9b4854e2066ad20bc"
 metafile = true
 
 [[files]]
-file = "mods/sodium.pw.toml"
-hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
-metafile = true
-
-[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "fa0e1562f9dc89d6428546c7388dcfce8706843333d58f16cadce42b56b81085"
-metafile = true
-
-[[files]]
-file = "mods/switchy.pw.toml"
-hash = "c9e89c2a117b070d48c93db27959481aff7f74be0988ac9795214ab79e948625"
 metafile = true
 
 [[files]]
