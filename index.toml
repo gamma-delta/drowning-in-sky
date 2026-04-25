@@ -238,7 +238,7 @@ hash = "71390c6888a4f59a8d479e38527e5c66ea61ae03316f5a71aa2d91db572b81f7"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/shaders/program/cloud_sea.fsh"
-hash = "d0cbc285c23c2a89d8c16c0123f39bcb63df6119766a7272f87cc2d932f7fe8d"
+hash = "2cfff2c9c606dfb1aeefeb3a7d25b1cf5e886815748f4a2622e8db61a842ad4b"
 
 [[files]]
 file = "config/paxi/resourcepacks/drowning-in-sky-resourcepack/assets/drowning-in-sky/pinwheel/shaders/program/cloud_sea.json"
@@ -441,6 +441,11 @@ metafile = true
 [[files]]
 file = "mods/my-nethers-delight.pw.toml"
 hash = "2f6c9613ab64a27f2ba7ab55ed6d7557ffd06dff2d9db7a7e92b2d526e96a466"
+metafile = true
+
+[[files]]
+file = "mods/no-increasing-repair-cost.pw.toml"
+hash = "6a066989cc6364520203a35b828b073a28233253515f6e8c51f954df6e0e3b92"
 metafile = true
 
 [[files]]

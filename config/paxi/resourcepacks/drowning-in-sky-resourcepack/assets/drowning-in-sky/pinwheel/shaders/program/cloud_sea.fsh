@@ -143,7 +143,7 @@ void main() {
         distance += length(actualCamPos.xyz - viewWorldspacePos.xyz) / 8;
     }
     // Block light makes the fog thinner, with diminishing returns
-    float minBrightForFogThin = 8.0;
+    float minBrightForFogThin = 3.0;
     float blockLightAdjustRaw = 2 * (blockLight-minBrightForFogThin/16.0);
     float blockLightAdjust = clamp(1.0 + clamp(blockLightAdjustRaw, 0, 1) * 5, 1, 100000);
     // Sky light makes the fog thicker -- skydark makes it thinner
