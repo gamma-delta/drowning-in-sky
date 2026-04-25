@@ -289,6 +289,11 @@ hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
+file = "mods/braver-bundles.pw.toml"
+hash = "bda3d9f7591b7f20a7588e6df861bdac325d84015d07bad9722e5c21cc231efa"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
@@ -371,6 +376,11 @@ metafile = true
 [[files]]
 file = "mods/ears.pw.toml"
 hash = "b42ea604c46fc73d9474ebc9d6d3d64a1efe6b9d5df8512c71a86f820eb8a105"
+metafile = true
+
+[[files]]
+file = "mods/easy-shulker-boxes.pw.toml"
+hash = "9f96f136c61af30a45a3c85588d8906ae8031b58316ae70d16930c01fd211ed6"
 metafile = true
 
 [[files]]
@@ -473,6 +483,11 @@ file = "mods/powergrid-mc1.21.1-0.5.4-05541066.jar"
 hash = "feb069c1b35135f72615cf5450fd95fcbeaac6d9723d9a2b19a9f2ef240cffc7"
 
 [[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "6812c3faa178cd48c65c5b8e7aeef50bc0b63d8e3b2117065d6179a43d8d3649"
+metafile = true
+
+[[files]]
 file = "mods/quick-right-click.pw.toml"
 hash = "70b5c478279d094130dd5357f25487fdb71b84c6649d9683b15e8e14478e2235"
 metafile = true
@@ -495,11 +510,6 @@ metafile = true
 [[files]]
 file = "mods/sdlink.pw.toml"
 hash = "f155005706c8e2ac410157dabda9462c30525f41bcd155c1d38e8297c0f1a4e3"
-metafile = true
-
-[[files]]
-file = "mods/shulkerboxtooltip.pw.toml"
-hash = "0bef7b3dd4758a661d3e6827bd390c12ff8a3ede4a66bb2e01e3c760f02bd509"
 metafile = true
 
 [[files]]

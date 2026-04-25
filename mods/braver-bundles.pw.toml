@@ -1,0 +1,13 @@
+name = "Braver Bundles"
+filename = "braverbundles-neoforge-1.21.2-1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/piuCfuMa/versions/gBbPIR9a/braverbundles-neoforge-1.21.2-1.0.jar"
+hash-format = "sha512"
+hash = "f2fec55954fc2622d3795884897c64dead09cfbf136266883f5f26cfa03dd6dd9fd299f864b20bd2a262c737e430fbc42aa4c8eca97c71c0c43659786dc372ef"
+
+[update]
+[update.modrinth]
+mod-id = "piuCfuMa"
+version = "gBbPIR9a"
