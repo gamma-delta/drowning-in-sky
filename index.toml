@@ -9,6 +9,10 @@ file = "config/create_dragons_plus-server.toml"
 hash = "9c6c6223330cd5dd885919eb8d87c4c710dd7d9fe3f1350a7358de3893dbe58d"
 
 [[files]]
+file = "config/durabilty-guard.json"
+hash = "446ba37c4b1c17b272ee0987f2f7f15919fc1b9059a2f5eb46fe2a4c196ab396"
+
+[[files]]
 file = "config/paxi/datapack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
@@ -542,6 +546,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
+metafile = true
+
+[[files]]
+file = "mods/yori3os-grappling-hooks.pw.toml"
+hash = "18b1e44c8b265fddc9f1da55c866f01afae93e3762e7020231c8ea6559866cf3"
 metafile = true
 
 [[files]]
