@@ -1,0 +1,11 @@
+{
+  "dimension": "minecraft:the_end",
+  "priority": 1000,
+  "universal_drag": 0.05,
+  "base_gravity": [
+    0.0,
+    -6.0,
+    0.0
+  ],
+  "base_pressure": 0.5
+}

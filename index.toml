@@ -117,6 +117,14 @@ file = "config/paxi/datapacks/drowning-in-sky-datapack/data/gnkinetics/recipe/cr
 hash = "6629e3325e15a4dc1082e7bc0945462ab4bbb84703714f1047f4f656aa2a722d"
 
 [[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/dimension_physics/the_end.json"
+hash = "32ed874224c9fbaef0dba1760c8b4f100896a9d79ba11cafceb1a7c046207bf0"
+
+[[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/dimension_physics/the_nether.json"
+hash = "98ba7328934b04eb653b1865aa7c0af42d74908dac9c5e4603a615a9e2d45ed4"
+
+[[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/minecraft/dimension_type/nether.json"
 hash = "7751031f616d71d4ae654946efc2ca3eafccb3ececbe35b528162807d1c52462"
 
@@ -289,18 +297,8 @@ hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
-file = "mods/braver-bundles.pw.toml"
-hash = "bda3d9f7591b7f20a7588e6df861bdac325d84015d07bad9722e5c21cc231efa"
-metafile = true
-
-[[files]]
 file = "mods/chunky.pw.toml"
 hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
-metafile = true
-
-[[files]]
-file = "mods/clickthrough+.pw.toml"
-hash = "ffb0861ae37abc292e61208c8b7826b7b8287b24c07419083d4bb4ac109da4ee"
 metafile = true
 
 [[files]]

@@ -1,0 +1,11 @@
+{
+  "dimension": "minecraft:the_nether",
+  "priority": 1000,
+  "universal_drag": 0.15,
+  "base_gravity": [
+    0.0,
+    -15.0,
+    0.0
+  ],
+  "base_pressure": 1.2
+}
