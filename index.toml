@@ -21,6 +21,10 @@ file = "config/paxi/datapacks/drowning-in-sky-datapack/data/create/recipe/rope_p
 hash = "afdec11cb66d160b690ab67adca5181e472b5c258d3e5b01e9c1a9f602846019"
 
 [[files]]
+file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/item_contents_provider/sacks.json"
+hash = "e42e63f750b894472cf61f960cb3b4b7aea653b40b09c638b7c7217a39efbe1e"
+
+[[files]]
 file = "config/paxi/datapacks/drowning-in-sky-datapack/data/drowning-in-sky/physics_block_properties/blinklamp.json"
 hash = "0ac14d232417a456dfff983b3c04b523da12cf22d702e9ec01e54d10d307f0c6"
 
