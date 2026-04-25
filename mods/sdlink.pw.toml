@@ -1,0 +1,13 @@
+name = "Simple Discord Link"
+filename = "SimpleDiscordLink-Universal-3.4.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Sh0YauEf/versions/RL1yMqBX/SimpleDiscordLink-Universal-3.4.1.jar"
+hash-format = "sha512"
+hash = "1ab6034c7e9d2f5a4847a0fb81be6725cc7e57d6b131d63056a23fdedd3e83c89afcf328f717b3892d57262ea14daddec10c508eea9e2cbfa8625fc2a6ae1cd8"
+
+[update]
+[update.modrinth]
+mod-id = "Sh0YauEf"
+version = "RL1yMqBX"

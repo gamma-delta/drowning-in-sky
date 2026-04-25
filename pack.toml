@@ -1,12 +1,12 @@
 name = "Drowning in Sky"
 author = "petrak@"
-version = "0.6.0"
+version = "0.7.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d4931a69aace75ed66614dc81ae63066c078386f48e2d9f59c48825c43beefda"
+hash = "656700a413b28e13723702b759be48896aa8aea2eb1f5ec340bf54b8ab3c4afa"
 
 [versions]
 minecraft = "1.21.1"
