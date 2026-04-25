@@ -1,0 +1,10 @@
+{
+  "active": true,
+  "minPercentage": 10,
+  "minDurability": 1,
+  "limitType": "NUMBER",
+  "useIgnoredAsWhitelist": false,
+  "ignoredItems": [
+    "create:cardboard_sword"
+  ]
+}
