@@ -269,6 +269,11 @@ file = "config/voicechat/voicechat-server.properties"
 hash = "eef2f0bdaf5eabdfa3da41a2e73520f096975b1e2cfed4da962b5b54398eed11"
 
 [[files]]
+file = "mods/24w33a_bundle_recipe.pw.toml"
+hash = "dd07b6f3ff63999c1dae3a1937a437c2aaebeb277a4b9aa951a0c47ebc816c4c"
+metafile = true
+
+[[files]]
 file = "mods/amplified-nether.pw.toml"
 hash = "e2fa0a0c652d1a4cdec2ecc122c968c2a4b1cb36c2cdd874e10d8b04edb737fa"
 metafile = true

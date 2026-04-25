@@ -1,0 +1,13 @@
+name = "24w33a Bundle Recipe"
+filename = "24w33a_bundle_recipe-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ucjs0jKh/versions/sBNKwxbZ/24w33a_bundle_recipe-1.0.0.jar"
+hash-format = "sha512"
+hash = "0ce2c676374d79bf505f6d451e23d32059a409fdddac32ff4bb3e3e51c641dcb82e02bbf6be3e7b765ebbd8faa72644641e140e3c0875251cf8d59451533962b"
+
+[update]
+[update.modrinth]
+mod-id = "Ucjs0jKh"
+version = "sBNKwxbZ"
