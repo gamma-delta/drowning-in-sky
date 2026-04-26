@@ -365,6 +365,11 @@ hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
+file = "mods/curios.pw.toml"
+hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
 file = "mods/custom-player-models.pw.toml"
 hash = "d65a013fc6ad1b6e1470e05c9efe7825e988b47415a033fef6d9b91474b488cb"
 metafile = true
@@ -425,6 +430,11 @@ hash = "ca9a6e860a062bf02cdc222775e8adaa2c0d9a38891464eeb55a12eecef69ce4"
 metafile = true
 
 [[files]]
+file = "mods/hooked.pw.toml"
+hash = "b2656b902a58254a783604d5701cf72a0d8b8ffd3680206425ead3c48dbc1917"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "b6e0a61fea06f8d6d8e1672cf07b682625c4b74efd548d5093cd9c1fed167eec"
 metafile = true
@@ -437,6 +447,16 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
+metafile = true
+
+[[files]]
+file = "mods/librarianlib.pw.toml"
+hash = "1acf77ef0a1a7ef7e8a5cdfebcfa3e9a0c6b6af63a544c2e715fc40cf13277ab"
 metafile = true
 
 [[files]]
@@ -485,8 +505,8 @@ hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
-file = "mods/powergrid-mc1.21.1-0.5.4-05541066.jar"
-hash = "feb069c1b35135f72615cf5450fd95fcbeaac6d9723d9a2b19a9f2ef240cffc7"
+file = "mods/powergrid-mc1.21.1-0.5.5-d191bfa0.jar"
+hash = "24635d52a716b31d2eac73be596606f3d4f0b823b89cedc40b44d5e0b7f6c0f7"
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
@@ -546,11 +566,6 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
-metafile = true
-
-[[files]]
-file = "mods/yori3os-grappling-hooks.pw.toml"
-hash = "18b1e44c8b265fddc9f1da55c866f01afae93e3762e7020231c8ea6559866cf3"
 metafile = true
 
 [[files]]

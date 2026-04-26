@@ -1,0 +1,13 @@
+name = "Hooked"
+filename = "hooked-neoforge-2.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RoLsCIqN/versions/Jwdpo3CR/hooked-neoforge-2.0.2.jar"
+hash-format = "sha512"
+hash = "2af04e18aad279d0691a72c93b7038389217843dec8834f4d451e7cd74f0df7a6712ed71e06902ea9b35500918bb96f7b48e966e7cca771de6f38aa446a4df6b"
+
+[update]
+[update.modrinth]
+mod-id = "RoLsCIqN"
+version = "Jwdpo3CR"

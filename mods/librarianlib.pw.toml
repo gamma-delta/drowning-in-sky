@@ -1,0 +1,13 @@
+name = "LibrarianLib"
+filename = "librarianlib-5.0.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9uQhkMe5/versions/cjdV1zT2/librarianlib-5.0.0-neoforge.jar"
+hash-format = "sha512"
+hash = "9ff6622cb509b958c24fba3bc6ca48c0051dd74b63171f225b076f8c9bd664204ff9d9fe9d14bbd284d929b55a0208e2b602fa6e75aa15794315df1d5e67da1b"
+
+[update]
+[update.modrinth]
+mod-id = "9uQhkMe5"
+version = "cjdV1zT2"
